@@ -1,9 +1,7 @@
-use rust::sorts::bead_sort;
+use nn_zero_to_hero_rs::micrograd::Value;
 
 fn main() {
-    let arr = vec![6, 11, 12, 4, 1, 5];
-    let result = bead_sort(arr);
+    let a = Value { data: 3f32 };
 
-    // print out result
-    println!("Sorted array: {:?}", result);
+    println!("{}", a);
 }
